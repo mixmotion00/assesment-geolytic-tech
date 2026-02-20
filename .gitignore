@@ -1,0 +1,47 @@
+# ========== React / Node.js ==========
+# dependencies
+client/node_modules/
+# production build
+client/build/
+# local env files
+client/.env.local
+client/.env.*.local
+
+# logs
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+# editor
+client/.vscode/
+client/.idea/
+
+# ========== .NET / C# ==========
+# Build Folders
+server/bin/
+server/obj/
+server/Debug/
+server/Release/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VSCode
+server/.vscode/
+server/.idea/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# publish output
+server/publish/
+
+# others
+*.vs/
+*.DS_Store

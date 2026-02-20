@@ -1,0 +1,48 @@
+.table{
+    display:grid;
+    grid-template-columns:
+        3fr   /* Property Address */
+        1fr     /* Property Type */
+        2fr     /* Requested Value */
+        1.5fr   /* Status */
+        1fr;    /* Request Date */
+    align-items: start;
+    justify-items: start;
+    /* gap: 100px; */
+    width: 100%;
+}
+
+.table span{
+    font-size:large;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.input-style{
+    border-radius: 5px;
+    height: 30px;
+    border-width: 1px;
+    /* border-color: var(--grey-color-lightl); */
+    /* background-color: var(--main-white-color); */
+    padding-left: 15px;
+    display: block;
+    /* width: 100%; */
+    /* margin-right: 10px; */
+}
+
+.drop-down{
+    border-radius: 5px;
+    height: 30px;
+    border-width: 1px;
+    /* mar */
+}
+
+.custom-div {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;       /* remove default maxWidth constraint */
+  display: flex;
+  flex-direction: column;
+  gap: 0;                /* optional: no gap between children */
+}
+
